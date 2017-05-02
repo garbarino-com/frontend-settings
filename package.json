@@ -1,0 +1,19 @@
+{
+  "name": "frontend-settings",
+  "version": "1.0.0",
+  "description": "A repository of settings for shared tools such as linters, processors and prefixers used in site projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garbarino-com/frontend-settings.git"
+  },
+  "author": "Esteban Calvi <ecalvi@garbarino.com.ar>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garbarino-com/frontend-settings/issues"
+  },
+  "homepage": "https://github.com/garbarino-com/frontend-settings#readme"
+}
