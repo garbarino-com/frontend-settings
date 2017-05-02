@@ -1,6 +1,6 @@
 {
   "name": "frontend-settings",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A repository of settings for shared tools such as linters, processors and prefixers used in site projects.",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/garbarino-com/frontend-settings.git"
   },
-  "author": "Esteban Calvi <ecalvi@garbarino.com.ar>",
+  "homepage": "https://github.com/garbarino-com/frontend-settings#readme",
+  "author": [
+    "Leonardo Pitelli <lpittelli@garbarino.com.ar>",
+    "Esteban Calvi <ecalvi@garbarino.com.ar>"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/garbarino-com/frontend-settings/issues"
   },
-  "homepage": "https://github.com/garbarino-com/frontend-settings#readme"
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "^2.1.0"
+  }
 }
