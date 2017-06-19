@@ -7,6 +7,12 @@ module.exports = {
   "rules": {
     "color-hex-case": "upper",
     "font-weight-notation": "numeric",
+    "indentation": [
+      2, {
+      "message": "Please use 2 spaces for indentation.",
+      "severity": "warning"
+      }
+    ],
     "length-zero-no-unit": true,
     "max-line-length": 96,
     "max-nesting-depth": 2,
@@ -17,8 +23,13 @@ module.exports = {
         "message": "Selector should be written in lowercase with hyphens or underscores. (selector-class-pattern)"
       }]
     }],
+    "selector-no-type":[true, {"ignore": ["descendant"]}],
     "unit-blacklist": {
-      "px": [ "line-height", "font", "font-size" ],
+      "px": [
+        "line-height",
+        "font",
+        "font-size"
+      ],
       "rem": [ "font" ],
       "vmin": [ "width" ]
     },
