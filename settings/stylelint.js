@@ -31,7 +31,14 @@ module.exports = {
         "font-size"
       ],
       "rem": [ "font" ],
-      "vmin": [ "width" ]
+      "vmin": [
+        "width",
+        "height"
+      ],
+      "vmax": [
+        "width",
+        "height"
+      ]
     },
     "at-rule-no-vendor-prefix": false
   }
