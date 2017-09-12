@@ -17,13 +17,15 @@ module.exports = {
     "max-line-length": 96,
     "max-nesting-depth": 2,
     "number-leading-zero": "never",
-    "string-quotes": "double",
     "selector-class-pattern": [ "^[a-z0-9\\-\\_]+$", {
       "resolveNestedSelectors": [ true, {
         "message": "Selector should be written in lowercase with hyphens or underscores. (selector-class-pattern)"
       }]
     }],
-    "selector-no-type":[true, {"ignore": ["descendant"]}],
+    "selector-no-type": [ true, {
+      "ignore": ["descendant"]
+    }],
+    "string-quotes": "double",
     "unit-blacklist": {
       "px": [
         "line-height",
